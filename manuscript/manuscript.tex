@@ -1,0 +1,282 @@
+% Nature and Science of Sleep (Dove Medical Press / Dovepress)
+% Review manuscript draft prepared in LaTeX for internal drafting.
+%
+% IMPORTANT (journal requirement): Dovepress author guidance indicates manuscripts should be submitted in
+% Microsoft Word format with double spacing, 3 cm margins, and page + line numbers. This LaTeX file
+% is formatted to match those requirements, but may need conversion to Word for actual submission.
+%
+% Last updated (local): 2026-02-15
+\documentclass[12pt]{article}
+
+\usepackage[margin=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+\usepackage[superscript,sort,compress]{cite}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% ---- Author-supplied metadata (REPLACE BEFORE SUBMISSION) ----
+\newcommand{\ManuscriptTitle}{Durability of circadian state regulation (light and sleep timing) for sustained vigilance under repeated use: a PRISMA-oriented review and habituation-aware evidence map}
+\newcommand{\RunningTitle}{Durability of circadian state regulation for vigilance}
+\newcommand{\ArticleType}{Review}
+
+\newcommand{\AuthorOneName}{[Author name]}
+\newcommand{\AuthorOneAffil}{[Affiliation]}
+\newcommand{\AuthorOneEmail}{[Email]}
+
+\newcommand{\CorrespondingAuthorName}{[Corresponding author]}
+\newcommand{\CorrespondingAuthorAddress}{[Full postal address]}
+\newcommand{\CorrespondingAuthorPhone}{[Telephone]}
+\newcommand{\CorrespondingAuthorFax}{[Fax (if applicable)]}
+\newcommand{\CorrespondingAuthorEmail}{[Email]}
+
+\begin{document}
+\doublespacing
+\linenumbers
+
+\begin{titlepage}
+{\Large \textbf{\ManuscriptTitle}\par}
+\vspace{12pt}
+
+{\textbf{Article type:} \ArticleType\par}
+{\textbf{Running title:} \RunningTitle\par}
+\vspace{12pt}
+
+{\textbf{Authors:}\par}
+{\AuthorOneName\par}
+{\AuthorOneAffil\par}
+{\AuthorOneEmail\par}
+\vspace{12pt}
+
+{\textbf{Correspondence:}\par}
+{\CorrespondingAuthorName\par}
+{\CorrespondingAuthorAddress\par}
+{Tel: \CorrespondingAuthorPhone\par}
+{Fax: \CorrespondingAuthorFax\par}
+{Email: \CorrespondingAuthorEmail\par}
+\vfill
+
+{\textbf{Notes for authors (remove before submission):} Replace bracketed placeholders (authors/affiliations/funding/disclosures/data link). Ensure figures are uploaded as separate files and figure legends appear at the end of the manuscript.\par}
+\end{titlepage}
+
+\section*{Abstract}
+\textbf{Background:} In applied settings, alertness interventions are used repeatedly; their practical value depends on whether objective vigilance benefits persist, attenuate (habituation/tolerance), or reverse under real schedules.\\
+\textbf{Objective:} To synthesize repeated-use evidence for natural (non-prescription) protocols relevant to low baseline arousal, focusing on objective vigilance outcomes, durability timescales, and explicit habituation/tolerance signals.\\
+\textbf{Methods:} We conducted a PRISMA-oriented evidence retrieval using OpenAlex (14 Feb 2026, UTC) with seed queries and capped two-hop citation chaining. We screened 3,116 unique records by title/abstract, sought 338 reports for full-text retrieval, and obtained 308 usable full texts after QA (30 unavailable). Full-text screening yielded 112 included reports (8 core; 104 context). Outcomes were extracted for 30 works (8 core; 22 context; 101 outcome rows).\\
+\textbf{Results:} Core evidence was dominated by repeated-use light exposure and sleep-timing protocols in low-alertness proxy populations. Objective vigilance improved in 4/8 core works, was mixed in 1/8, null in 1/8, and unclear in 2/8. Across extracted works, explicit habituation/tolerance signals clustered in caffeine-context and sleep-timing studies. A recurring limitation was insufficient trajectory resolution to distinguish stable benefit from attenuation, reversal, or adherence decay.\\
+\textbf{Conclusion:} In extracted core evidence, repeated-use improvements in objective vigilance for low-alertness proxies are observed in protocols compatible with circadian and sleep-related state regulation (light exposure and sleep timing). Strong claims about tonic arousal set-point shifts in trait-defined low baseline arousal remain constrained by limited operationalization and sparse co-measurement of physiology and performance across repeated-use trajectories. We propose a minimum durability reporting set to make repeated-use claims auditable and comparable across modalities.
+
+\textbf{Keywords:} vigilance; circadian; bright light; sleep timing; habituation; tolerance
+
+\section{Introduction}
+In performance-relevant contexts, interventions are applied repeatedly. Under repeated use, a protocol can maintain benefit, attenuate (habituation/tolerance), reverse as constraints reassert, or appear to ``stop working'' due to adherence decay. Acute or endpoint-only designs often cannot distinguish these trajectories. As a result, ``effectiveness'' becomes underspecified: it is unclear whether observed endpoints reflect stable benefit across days, a transient early advantage, or compensatory dynamics tied to schedule constraints (eg night work, recurrent sleep restriction).
+
+This review therefore treats \textbf{durability under repeated use} as the primary scientific object, rather than an ancillary observation. We addressed the following review question: in low baseline arousal adults, which natural intervention protocols sustain elevated daytime tonic arousal and cognitive performance over repeated daily use, and which show habituation? Because repeated-use evidence spans multiple inferential levels (acute within-day effects, same-day elevation while actively used, durability across days/weeks, and persistence after stopping), this manuscript targets same-day elevation and durability under repeated use.
+
+Claim boundary: primary inferences are restricted to repeated-use studies with objective vigilance outcomes that directly address the review question (``core'' evidence), and non-representation of a modality in the core set should not be interpreted as evidence of no effect.
+
+\section{Methods}
+\subsection{Protocol and operational definitions}
+We used a prespecified protocol to operationalize low baseline arousal (including justified proxy populations), repeated-use durability, and habituation/tolerance signals. Eligibility and extraction were designed to support auditable durability inference rather than acute efficacy claims.
+
+\subsection{Information sources and search strategy}
+We searched OpenAlex on 14 Feb 2026 (UTC), using seed queries spanning natural intervention terms, vigilance outcomes, and baseline/duration qualifiers, followed by capped two-hop forward/backward citation chaining. The workflow was PRISMA-oriented: screening and retrieval decisions were tracked at the report level, and key logs and extraction tables were preserved for audit.\cite{PRISMA2020}
+
+\subsection{Screening, retrieval, tiering, extraction, and risk of bias}
+We screened 3,116 unique records by title/abstract and sought 338 reports for full-text retrieval. After retrieval and QA, 308 reports had usable full texts and 30 were unavailable. Full-text decisions yielded 112 included reports and 226 excluded reports. Included reports were tiered into a \textit{core} set (directly addresses the review question) and a \textit{context} set (mechanism/gap-map support). Outcome extraction was conducted using a structured schema; risk of bias was logged per work to support qualitative synthesis.
+
+\subsection{Synthesis}
+Given heterogeneous designs and endpoints, we conducted a durability-first narrative synthesis supported by evidence-mapping figures generated from extracted tables. Core conclusions are restricted to core evidence; context evidence is used to constrain interpretation and map design gaps.
+
+\section{Results}
+\subsection{Study selection}
+Figure~4 (Figure legend at end) summarizes study selection. In brief, 3,116 unique records were screened by title/abstract, 338 reports were sought for retrieval, and 308 full texts were usable after QA. Full-text screening yielded 112 included reports (8 core; 104 context) and 226 exclusions.
+
+\subsection{Extracted evidence base used for this manuscript}
+This manuscript synthesizes outcomes extracted from 30 works (8 core; 22 context), comprising 101 outcome rows. The extracted core evidence is dominated by repeated-use light exposure and sleep-timing protocols in low-alertness proxy populations.
+
+\subsection{Core evidence summary (n=8)}
+Table~\ref{tab:core} summarizes the eight core works. Objective vigilance improved in four works, all testing light exposure or sleep-timing protocols.\cite{Tanaka2011,Boudreau2013,Connolly2021a,Cheng2022} One sleep-timing study was mixed (early benefit with later reversal),\cite{Kubo2011} one multicomponent package was null on objective vigilance,\cite{SmithCoggins1997} and two works were unclear on objective vigilance (one melatonin field study; one light case series with high overall risk of bias).\cite{Bjorvatn2007,Connolly2021b}
+
+\subsubsection{Circadian state regulation: light exposure protocols}
+Across extracted core light interventions (all involving added light exposure), objective vigilance endpoints (primarily psychomotor vigilance task [PVT] metrics) improved under repeated-use protocols in multiple settings:
+\begin{itemize}
+  \item \textit{Tanaka et al} reported improved 5-min PVT mean reaction time (difference $-28.2$ ms; 95\% CI $-46.2$ to $-10.2$; subset $n=11$) and fewer PVT lapses (difference $-1.19$; 95\% CI $-1.98$ to $-0.40$) under a repeated-use bright-light protocol in nurses with rapidly rotating shifts.\cite{Tanaka2011}
+  \item \textit{Connolly et al} (pilot randomized trial) reported improved 10-min PVT mean reaction time (treatment effect estimate $-28.36$ ms; 95\% CI $-47.48$ to $-9.23$; $p=0.004$; $n=18$ for PVT) and improved fastest 10\% reaction time (treatment effect estimate $-15.10$ ms; 95\% CI $-25.03$ to $-5.16$; $p=0.003$) under home-based light therapy for fatigue following acquired brain injury.\cite{Connolly2021a}
+  \item \textit{Boudreau et al} reported an interaction pattern in psychomotor vigilance task median reaction speed (group $\times$ visit $\times$ time-awake interaction $p=0.046$), with differences emerging in specific time-awake windows.\cite{Boudreau2013}
+\end{itemize}
+Interpretive boundary: these repeated-use improvements are frequently supported by endpoint contrasts rather than trajectory-dense tests of stability vs attenuation across repeated exposures.
+
+\subsubsection{Circadian state regulation: sleep timing and sleep extension}
+Core sleep-timing evidence suggests time-dependent benefits that may attenuate or reverse when schedule constraints persist. In Kubo et al, weekend sleep extension improved Monday afternoon PVT outcomes but showed worse Thursday outcomes relative to control.\cite{Kubo2011} In Cheng et al (shift work disorder), sleep-timing manipulation improved first night-shift smartphone PVT reaction time (0.67 s vs 0.55 s; adjusted $p=0.015$) and reduced sleepiness on early shifts, with attenuation on some endpoints across subsequent shifts.\cite{Cheng2022}
+
+\subsubsection{Circadian adjuncts and multicomponent packages}
+In the extracted core set, a melatonin field study showed unclear objective reaction-time effects with some subjective sleepiness improvements,\cite{Bjorvatn2007} and a multicomponent countermeasure package did not improve objective vigilance in a rotating shiftwork setting.\cite{SmithCoggins1997}
+
+\subsection{Habituation/tolerance evidence (signal set)}
+Across extracted works, explicit habituation/tolerance signals clustered in caffeine-context and sleep-timing studies (Table~\ref{tab:habituation}). Caffeine-context evidence is particularly informative for durability interpretation because it highlights that the counterfactual baseline may be non-stationary under repeated use (tolerance and withdrawal dynamics).\cite{Watson2002,Weibel2019,Pagar2016}
+Additional habituation signals were also encoded in extracted context evidence on induced sleep deficiency and recovery dynamics and in a long-term training context.\cite{Ochab2021,Zanesco2018}
+
+\section{Discussion}
+\subsection{Principal findings (restricted to core evidence)}
+Within the extracted core evidence, repeated-use improvements in objective vigilance for low-alertness proxy populations were observed in four works testing light exposure or sleep-timing protocols.\cite{Tanaka2011,Boudreau2013,Connolly2021a,Cheng2022} In contrast, melatonin and multicomponent countermeasure packages showed mixed/unclear or null objective vigilance patterns in the extracted core set.\cite{Bjorvatn2007,SmithCoggins1997}
+
+This pattern supports a conservative synthesis: the most consistent extracted repeated-use benefits are compatible with circadian and sleep-related state regulation.
+
+\subsection*{Box 1. Why other ``natural'' modalities do not feature prominently in the core synthesis}
+This review began with a broad natural-intervention search space, but the review question targets a narrow intersection: low baseline arousal (or a justified proxy), repeated daily use, objective vigilance outcomes, and sufficient trajectory resolution to evaluate attenuation vs stability. Under these constraints, the extracted core set is concentrated in circadian state regulation levers (light exposure and sleep timing). Other common modalities (eg exercise, biofeedback, cold exposure, fast breathing) were not represented in the core set in this workflow; within the extracted context sample, exercise and biofeedback appeared only sparsely and were not used to support core efficacy claims.
+
+Importantly, this should not be read as evidence that these modalities are ineffective. Rather, it indicates that, within this PRISMA-oriented OpenAlex-derived corpus and the locked eligibility definitions, we did not identify trajectory-capable, repeated-use objective vigilance studies in low-alertness proxy populations that would allow comparably strong durability inferences. A definitive cross-modality comparison would require a different review design (modality-specific searches and broader database coverage) and, in many cases, different primary study designs.
+
+\subsection{What the core evidence does not support}
+The review question includes ``tonic arousal,'' but extracted core evidence does not, by itself, warrant strong claims that natural interventions reliably induce sustained upward shifts in tonic arousal set-point in trait-defined low-arousal individuals. The primary constraint is measurement: baseline physiologic markers of tonic arousal are rarely paired with repeated-use performance trajectories. When vigilance improves, the more defensible interpretation is modulation of sleep pressure and/or circadian alignment rather than a direct, durable tonic-arousal elevation.
+
+\subsection{Habituation/tolerance: distinguishing schedule-contingent dynamics from tolerance models}
+In extracted sleep-timing work, time dependence often aligns with schedule constraints: benefits can be largest early in a sequence and then attenuate or reverse as underlying restrictions reassert.\cite{Kubo2011,Cheng2022} By contrast, caffeine-context evidence more directly encodes tolerance/withdrawal dynamics that complicate repeated-use interpretation.\cite{Watson2002,Weibel2019,Pagar2016} This does not imply caffeine cannot improve acute performance; it underscores that repeated-use durability depends on baseline exposure and withdrawal context, which can compress net day-to-day benefit.
+
+\subsection{Caffeine warrants explicit treatment in durability science (context-only here)}
+In practice, caffeine is a central ``natural'' alertness intervention, and reviewers may reasonably ask why it does not feature more prominently in the core conclusions. The answer is structural: in this workflow, caffeine did not appear in the extracted core set, so this manuscript does not provide direct core evidence on sustained vigilance under repeated caffeine protocols in low baseline arousal adults.
+
+Nevertheless, extracted caffeine studies are unusually informative for durability inference because they encode the key methodological complication directly: under repeated use, the counterfactual baseline is not necessarily stationary. In extracted caffeine evidence, the habituation/tolerance signal is expressed as (i) attenuation in physiologic response under sustained caffeine exposure,\cite{Watson2002} (ii) a pattern in which repeated caffeine exposure is not better than placebo on an extracted vigilance endpoint while withdrawal is worse,\cite{Weibel2019} and (iii) persistence of an acute reaction-time improvement after prolonged daily coffee exposure with smaller extracted deltas relative to a baseline session.\cite{Pagar2016} Taken together, these observations motivate a narrow methodological point rather than a broad efficacy claim: for caffeine, repeated-use durability cannot be interpreted without explicit specification of baseline exposure and withdrawal context.
+
+Implication for the review question (as a gap): to answer repeated-use durability for caffeine in low baseline arousal adults, future studies would need trajectory-capable designs that (a) characterize baseline caffeine exposure, (b) specify and control abstinence/withdrawal context, and (c) report objective vigilance trajectories under repeated-use protocols.
+
+\subsection{Minimum durability reporting set (MDRS) for repeated-use studies}
+The extracted evidence suggests that interpretability under repeated use is often the binding constraint. We propose a minimum durability reporting set for repeated-use natural-intervention studies intended to support claims about sustained vigilance optimization in low baseline arousal:
+\begin{enumerate}
+  \item Low-baseline-arousal operationalization: prespecify and report the criterion used (trait, symptom, physiologic marker, or justified proxy population), including baseline distribution and threshold logic.
+  \item Repeated-use protocol specification: report per-day dose/timing and total exposure days; specify whether delivery is fixed by clock time or anchored to sleep/work episodes.
+  \item Objective vigilance endpoints: prespecify a primary objective vigilance outcome and measurement timing relative to sleep/work; report task parameters sufficient for replication.
+  \item Trajectory resolution: measure and report within-participant trajectories across repeated exposures (not baseline and endpoint only), enabling explicit tests of time-by-condition stability vs attenuation.
+  \item Adherence and contamination: quantify adherence over time and report relevant co-interventions and constraints (eg caffeine use, napping, schedule changes) that can mimic attenuation or stability.
+  \item Physiology-performance pairing (when making tonic-arousal claims): if the claim is tonic-arousal elevation, pair performance trajectories with baseline physiologic measures collected at matched times of day; otherwise interpret changes as state regulation unless evidence supports an arousal-specific inference.
+  \item Comparator clarity: specify the counterfactual (usual schedule, sham/placebo, or alternative structured protocol) and align measurement windows accordingly.
+  \item Durability-critical context: report withdrawal/abstinence context where relevant (notably for caffeine), adverse effects, and missingness patterns over time.
+\end{enumerate}
+These standards do not privilege any specific modality; they make durability claims auditable and reduce interpretive degrees of freedom that currently limit synthesis.
+
+\subsection{Limitations}
+This manuscript is conservative in inference, but constrained by the evidence base and workflow: core evidence is dominated by low-alertness proxy populations; designs and endpoints are heterogeneous; many repeated-use protocols do not resolve trajectories; core evidence is concentrated in circadian state regulation (not a comprehensive modality ranking); retrieval used a single source (OpenAlex) and some reports were unavailable; and only a subset of context works were deeply extracted due to a prespecified cutoff/stopping rule.
+
+\section{Conclusion}
+Extracted core evidence supporting repeated-use improvements in objective vigilance is concentrated in light exposure and sleep-timing strategies in low-alertness proxy populations. This reflects where trajectory-capable durability evidence was most concentrated in the core set, not a definitive cross-modality ranking of natural interventions. Strong claims about sustained tonic-arousal set-point shifts in trait-defined low baseline arousal remain constrained by limited operationalization and sparse co-measurement of physiology and performance across repeated-use trajectories. Progress in natural-intervention performance science will depend on durability-first designs that resolve trajectories, distinguish schedule-contingent dynamics from tolerance models, and align claims with measurement.
+
+\section*{Abbreviations}
+PVT, psychomotor vigilance task; QA, quality assurance; PRISMA, Preferred Reporting Items for Systematic Reviews and Meta-Analyses.
+
+\section*{Ethics approval and informed consent}
+Not applicable (review of published literature).
+
+\section*{Consent for publication}
+Not applicable.
+
+\section*{Data availability}
+All protocol documents, search logs, screening manifest metadata, extraction tables, and synthesis outputs used in this review are available in a public repository at: \url{[REPOSITORY\_URL]} (release/tag: [VERSION\_OR\_DOI]). Full-text PDFs are not redistributed due to copyright and licensing restrictions; the repository provides OpenAlex IDs/DOIs and extraction anchors to enable independent retrieval and audit.
+
+\section*{Funding}
+None.
+
+\section*{Disclosure}
+The authors report no conflicts of interest in this work.
+
+\section*{Author contributions}
+Not applicable.
+
+\section*{Acknowledgments}
+None.
+
+\section*{References}
+\begin{thebibliography}{99}
+\bibitem{PRISMA2020} Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. \textit{BMJ}. 2021;372:n71. doi:10.1136/bmj.n71
+
+\bibitem{Tanaka2011} Tanaka K, Takahashi M, Tanaka M, et al. Brief morning exposure to bright light improves subjective symptoms and performance in nurses with rapidly rotating shifts. \textit{J Occup Health}. 2011;53(4):258--266. doi:10.1539/joh.l10118
+
+\bibitem{Boudreau2013} Boudreau P, Dumont GA, Boivin DB. Circadian adaptation to night shift work influences sleep, performance, mood and the autonomic modulation of the heart. \textit{PLoS One}. 2013;8(7):e70813. doi:10.1371/journal.pone.0070813
+
+\bibitem{Connolly2021a} Connolly LJ, Rajaratnam SMW, Murray JM, et al. Home-based light therapy for fatigue following acquired brain injury: a pilot randomized controlled trial. \textit{BMC Neurol}. 2021;21(1):262. doi:10.1186/s12883-021-02292-8
+
+\bibitem{Cheng2022} Cheng WJ, Hang LW, Kubo T, Vanttola P, Huang SC. Impact of sleep timing on attention, sleepiness, and sleep quality among real-life night shift workers with shift work disorder: a cross-over clinical trial. \textit{Sleep}. 2022;45(4):zsac034. doi:10.1093/sleep/zsac034
+
+\bibitem{Kubo2011} Kubo T, Takahashi M, Sato T, et al. Weekend sleep intervention for workers with habitually short sleep periods. \textit{Scand J Work Environ Health}. 2011;37(5):418--426. doi:10.5271/sjweh.3162
+
+\bibitem{SmithCoggins1997} Smith-Coggins R, Rosekind MR, Buccino KR, Dinges DF, Moser RP. Rotating shiftwork schedules: can we enhance physician adaptation to night shifts? \textit{Acad Emerg Med}. 1997;4(10):951--961. doi:10.1111/j.1553-2712.1997.tb03658.x
+
+\bibitem{Bjorvatn2007} Bjorvatn B, Stangenes KM, Oyane N, et al. Randomized placebo-controlled field study of the effects of bright light and melatonin in adaptation to night work. \textit{Scand J Work Environ Health}. 2007;33(3):204--214. doi:10.5271/sjweh.1129
+
+\bibitem{Connolly2021b} Connolly LJ, Ponsford J, Rajaratnam SMW, Lockley SW. Development of a home-based light therapy for fatigue following traumatic brain injury: two case studies. \textit{Front Neurol}. 2021;12:651498. doi:10.3389/fneur.2021.651498
+
+\bibitem{Watson2002} Watson J, Deary IJ, Kerr D. Central and peripheral effects of sustained caffeine use: tolerance is incomplete. \textit{Br J Clin Pharmacol}. 2002;54(4):400--406. doi:10.1046/j.1365-2125.2002.01681.x
+
+\bibitem{Weibel2019} Weibel J, Lin YS, Landolt HP, et al. Caffeine-dependent changes of sleep-wake regulation: evidence for adaptation after repeated intake. \textit{bioRxiv}. 2019. doi:10.1101/641480
+
+\bibitem{Pagar2016} Pagar AB, Raut SE. An interventional study to see the effect of acute intake of caffeine on reaction time in young healthy adults consuming moderate amount of caffeine for six months. \textit{IOSR J Dent Med Sci}. 2016;15(07):09--13. doi:10.9790/0853-150710913
+
+\bibitem{Ochab2021} Ochab JK, Szwed J, Oles K, et al. Observing changes in human functioning during induced sleep deficiency and recovery periods. \textit{PLoS One}. 2021;16(9):e0255771. doi:10.1371/journal.pone.0255771
+
+\bibitem{Zanesco2018} Zanesco AP, King BG, MacLean KA, Saron CD. Cognitive aging and long-term maintenance of attentional improvements following meditation training. \textit{J Cogn Enhanc}. 2018;2(3):259--275. doi:10.1007/s41465-018-0068-1
+\end{thebibliography}
+
+\clearpage
+\section*{Tables}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.12\textwidth} >{\raggedright\arraybackslash}p{0.10\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.10\textwidth}}
+\caption{Core evidence summary (n=8).}\label{tab:core}\\
+\toprule
+Study & Primary category & Max days & Vigilance & Habituation signal & RoB \\
+\midrule
+\endfirsthead
+\toprule
+Study & Primary category & Max days & Vigilance & Habituation signal & RoB \\
+\midrule
+\endhead
+Tanaka et al (2011)\cite{Tanaka2011} & Light & 30 & Improves & No & Some concerns \\
+Boudreau et al (2013)\cite{Boudreau2013} & Light & 7 & Improves & No & Some concerns \\
+Kubo et al (2011)\cite{Kubo2011} & Sleep timing & 3 & Mixed & Yes & Some concerns \\
+Smith-Coggins et al (1997)\cite{SmithCoggins1997} & Multicomponent & 30 & Null & No & Some concerns \\
+Bjorvatn et al (2007)\cite{Bjorvatn2007} & Melatonin & 4 & Unclear & No & Some concerns \\
+Connolly et al (2021a)\cite{Connolly2021a} & Light & 60 & Improves & No & Unclear \\
+Connolly et al (2021b)\cite{Connolly2021b} & Light & 60 & Unclear & No & High \\
+Cheng et al (2022)\cite{Cheng2022} & Sleep timing & 7 & Improves & Yes & Some concerns \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.28\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.12\textwidth} >{\raggedright\arraybackslash}p{0.38\textwidth}}
+\caption{Works with an explicit habituation/tolerance signal in extracted outcomes.}\label{tab:habituation}\\
+\toprule
+Study & Category & Max days & Notes (high level; extracted) \\
+\midrule
+\endfirsthead
+\toprule
+Study & Category & Max days & Notes (high level; extracted) \\
+\midrule
+\endhead
+Watson et al (2002)\cite{Watson2002} & Caffeine (context) & 7 & Attenuation in central/peripheral physiologic responses under sustained caffeine; vigilance improvement observed under acute challenge. \\
+Pagar and Raut (2016)\cite{Pagar2016} & Caffeine (context) & 180 & Acute reaction-time improvements reported after months daily coffee; extracted notes indicate smaller deltas relative to a baseline session. \\
+Weibel et al (2019)\cite{Weibel2019} & Caffeine (context) & 10 & No improvement vs placebo on extracted PVT metric under protocol; withdrawal condition showed worse vigilance and sleepiness. \\
+Kubo et al (2011)\cite{Kubo2011} & Sleep timing (core) & 3 & Early benefit (Monday) with later reversal (Thursday) under recurrent restriction. \\
+Cheng et al (2022)\cite{Cheng2022} & Sleep timing (core) & 7 & Early-shift improvements with attenuation on later shifts for some endpoints. \\
+Ochab et al (2021)\cite{Ochab2021} & Sleep timing (context) & 10 & Induced deficiency and recovery dynamics yield time-dependent vigilance and physiology patterns. \\
+Zanesco et al (2018)\cite{Zanesco2018} & Other (context) & 90 & Training-related improvement during intensive practice with partial decay across years since retreat. \\
+\bottomrule
+\end{longtable}
+
+\clearpage
+\section*{Figure legends}
+
+\textbf{Figure 1.} Extracted works by primary intervention category, stratified by evidence tier (core vs context). Counts are unique works (not outcome rows). File: \texttt{figures/Figure1.png}
+
+\textbf{Figure 2.} Vigilance durability map (work level): x-axis is maximum repeated-use duration (days; log scale). y-axis is the work-level direction summary for vigilance endpoints. Points are colored by primary intervention category and shaped by tier; core works are labeled by work ID. This plot is an evidence map, not a meta-analysis. File: \texttt{figures/Figure2.png}
+
+\textbf{Figure 3.} Risk of bias distribution by evidence tier, using a per-work summary recorded during extraction. Missing/unclear ratings reflect incomplete reporting and, in one context case, abstract-only assessment. File: \texttt{figures/Figure3.png}
+
+\textbf{Figure 4.} PRISMA-style flow summary of identification, screening, retrieval, and inclusion. File: \texttt{figures/Figure4.png}
+
+\end{document}

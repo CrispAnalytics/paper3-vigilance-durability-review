@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-02-15T14:54:09.182281Z",
+  "habituation_signal_any_counts": {
+    "no": 23,
+    "yes": 7
+  },
+  "locked_question": "In low-baseline-arousal adults, which natural intervention protocols sustain elevated daytime tonic arousal and cognitive performance over repeated daily use, and which show habituation?",
+  "n_outcome_rows": 101,
+  "n_unique_works": 30,
+  "risk_of_bias_overall_counts": {
+    "high": 10,
+    "some_concerns": 18,
+    "unclear": 2
+  },
+  "vigilance_effect_summary_counts": {
+    "improves": 9,
+    "mixed": 6,
+    "null": 3,
+    "unclear": 2,
+    "worsens": 4
+  },
+  "works_by_primary_intervention_category": {
+    "biofeedback": 1,
+    "caffeine": 3,
+    "exercise": 1,
+    "light": 10,
+    "melatonin": 1,
+    "multi": 2,
+    "other": 4,
+    "sleep_timing": 8
+  },
+  "works_by_tier": {
+    "T1_core": 8,
+    "T2_context": 22
+  },
+  "works_with_vigilance_outcomes": 24
+}

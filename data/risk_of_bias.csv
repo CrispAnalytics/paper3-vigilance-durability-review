@@ -1,0 +1,31 @@
+short_id,rob_tool,rob_overall,rob_notes
+W3180479501,RoB2 (crossover variant) [planned],unclear,Small pilot; crossover with potential carryover; assessor blinded; treatment vs control both active lighting modifications; outcome subset n=18 for PVT.
+W3200473843,case_series (no standard tool applied yet),high,N=2; no counterbalancing; no washout; subjective outcomes prominent; objective PVT only for one case beyond baseline.
+W1981621779,RoB2 (crossover/cluster nuances) [planned],some_concerns,Open-label; workplace feasibility limited adherence; PVT subset only; crossover period effects possible.
+W2158979070,RoB2 (crossover) [planned],some_concerns,Very small N=6; multiple components; potential contamination; but double-blind with active placebo and washout described.
+W4211135645,RoB2 (crossover) [planned],some_concerns,Crossover without washout; outcomes include self-report and app-based PVT; adjustment for sleep duration/light exposure reported.
+W2094064988,RoB2 (crossover/RCT dataset) [planned],some_concerns,"Original study randomized control vs intervention, but this paper’s primary comparisons are adapted vs non-adapted (post hoc grouping); small sample; 2 participants contributed to both conditions."
+W2128384646,RoB2 (crossover) [planned],some_concerns,Not blinded; sleep extension adherence encouraged but self-managed; outcomes measured at fixed times (Mon/Thu); crossover order counterbalanced.
+W2165853793,RoB2 (crossover) [planned],some_concerns,Crossover across 3 work periods; capsule arms double-blind (placebo/melatonin) but bright light not blinded; potential period effects; some missing data imputed; small N.
+W2494879164,ROBINS-I,high,Unblinded pre/post caffeine challenge; no placebo; self-reported intake and adherence; possible practice/expectancy and regression to mean.
+W1496048461,RoB2,some_concerns,Double-blind crossover; small n=12; potential residual withdrawal/expectancy effects; outcomes mostly physiologic.
+W2946071698,RoB2,some_concerns,Double-blind crossover with placebo and withdrawal; single-sex sample; preprint (not peer reviewed); one participant excluded for incompliance.
+W3068855346,RoB2,some_concerns,Crossover; lighting conditions not blinded; missing DLMO data for many; multiple outcomes/timepoints; lab protocol strong.
+W3040483795,RoB2,some_concerns,Parallel-group randomization; masking imperfect due to lens tint; attrition higher in BLB group; outcomes objective but multiple comparisons.
+W4285731316,ROBINS-I,high,Non-randomized ward comparison with preset rotation schedule; partial crossover (only subset observed under both environments); self-report outcomes; potential period/time confounding and selection (29% participation).
+W2912284734,RoB2 (crossover),some_concerns,Randomized crossover with strong lab control but very small n=7 (after exclusions); fixed task order; multiple outcomes/timepoints; potential carryover/period effects across 3-8 week gap unlikely but not fully addressed.
+W4311622325,RoB2,some_concerns,Field RCT with active control and baseline period; outcomes largely self-report (errors/fatigue/sleepiness); partial blinding; intervention multi-component; preprint (not peer reviewed).
+W4385264619,RoB2,some_concerns,Parallel RCT in HD patients; blinding unlikely; small sample; objective TAP outcomes but multiple comparisons and potential adherence-related missingness.
+W2800765696,ROBINS-I,high,Sequential pre-post control-trial (no randomization; time confounding across training blocks + maintenance period); outcomes partly objective (PVT) but measured at limited timepoints; potential maturation/training effects.
+W2794678572,RoB2 (waitlist RCT + long-term follow-up),some_concerns,"Stratified random assignment to retreat vs waitlist, but blinding not possible; task difficulty procedure changed after preassessment; long-term follow-up relies on self-reported practice and has attrition."
+W2793708084,ROBINS-I,high,"Single-arm pre/post with no control; attendance is both exposure and confounder; potential regression to mean, time trends, and placebo/motivation effects."
+W2570795284,ROBINS-I,high,Within-subject crossover with fixed order (pre/during/post Ramadan); potential period/training effects and expectancy; objective sleep monitored but no blinding.
+W2000225665,RoB2 (crossover/within-subject experiment),some_concerns,Small n=10; order/carryover not clearly reported; objective EEG outcome; short training period; no behavioral cognitive outcomes.
+W3198610695,ROBINS-I,some_concerns,Within-subject longitudinal sleep restriction in natural conditions; compliance exclusions; no parallel control group; outcomes objective but time trends/learning may contribute.
+W319466055,RoB2 (parallel RCT) [planned],some_concerns,Random assignment to extended vs habitual sleep; in-lab protocol but small n=24; missing sessions due to technical issues; one-tailed p-values; outcomes modeled longitudinally.
+W4394879532,ROBINS-I,high,Single-group repeated-measures confinement exposure with no parallel control; strong time/learning confounding (practice effect noted); outcomes largely within-person trends.
+W2943827695,ROBINS-I,high,Single-arm pre/post (no control); potential time and expectancy effects; subjective outcomes (fatigue/mood) and limited sleepiness sampling (3 timepoints on last day).
+W4237499249,RoB2 (small RCT + pilot) [planned],some_concerns,Replication study randomized operators to training vs control but small final n=16 with attrition; blinding unlikely; multiple cognitive outcomes; paper reports pilot + replication in a single article.
+W2256196379,ROBINS-I,high,"Single-arm pre/post thesis; no control group; adherence gap (target +60 min sleep, achieved +22 min); outcomes measured at two timepoints; multiple comparisons/Bonferroni."
+W2977514556,ROBINS-I,high,Single-group pre/post with long (6-month) follow-up; self-selection into seminar and large attrition to follow-up; self-report outcomes only; no parallel control.
+W3132047372,RoB2 (crossover) [abstract-only],unclear,Two crossover field studies in rotating shift workers; extracted from OpenAlex abstract only because full text is paywalled; insufficient details for RoB assessment.

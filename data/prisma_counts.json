@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-02-14T00:16:33.552104+00:00",
+  "seed_queries_n": 20,
+  "records_identified_seed_raw": 3685,
+  "records_identified_hop1_raw": 216,
+  "records_identified_hop2_raw": 12,
+  "records_total_unique_after_dedup": 3116,
+  "records_screened_title_abstract": 3116,
+  "records_excluded_title_abstract": 2778,
+  "reports_sought_for_retrieval": 338,
+  "studies_included_title_abstract_stage": 338
+}
