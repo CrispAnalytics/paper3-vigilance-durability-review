@@ -2,6 +2,8 @@
 
 This repository contains the **protocol**, **search/audit logs**, **screening manifest metadata**, **extracted evidence tables**, and **analysis outputs** used to produce the accompanying review manuscript.
 
+**Zenodo archive (DOI):** https://doi.org/10.5281/zenodo.18650391
+
 ## What This Repo Includes
 - PRISMA-oriented search and screening metadata (OpenAlex-based)
 - Full-text screening manifest (metadata only)
