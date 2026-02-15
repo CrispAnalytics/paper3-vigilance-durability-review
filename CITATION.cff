@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility bundle, please cite the associated manuscript and this archived dataset."
+title: "Durability-First Vigilance Review (Public Reproducibility Bundle)"
+type: dataset
+repository-code: "https://github.com/CrispAnalytics/paper3-vigilance-durability-review"
+license: "CC-BY-4.0"
+keywords:
+  - systematic review
+  - PRISMA
+  - vigilance
+  - circadian
+  - light exposure
+  - sleep timing
+  - habituation
+  - tolerance
+
+# AUTHOR NOTE: Replace the placeholders below (or add additional authors) before final submission.
+authors:
+  - name: "[Author name]"
+    email: "[Email]"
+

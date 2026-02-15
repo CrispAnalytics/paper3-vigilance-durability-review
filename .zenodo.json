@@ -1,0 +1,20 @@
+{
+  "title": "Durability-First Vigilance Review (Public Reproducibility Bundle)",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "Public reproducibility bundle for the review manuscript. Includes protocol documents, search logs, screening manifest metadata (no full-text PDFs), extracted evidence tables, risk-of-bias log, synthesis outputs, and figure files. Full-text PDFs are not redistributed due to copyright and licensing restrictions; identifiers and extraction anchors are provided for audit.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "systematic review",
+    "PRISMA",
+    "vigilance",
+    "psychomotor vigilance task",
+    "circadian",
+    "light exposure",
+    "sleep timing",
+    "habituation",
+    "tolerance"
+  ]
+}
+
